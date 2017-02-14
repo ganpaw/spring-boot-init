@@ -11,31 +11,19 @@
 	<name>spring-boot-init</name>
 	<description>Demo project for Spring Boot</description>
 
-	<!-- parent>
+	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.4.4.RELEASE</version>
 		<relativePath/> 
-	</parent -->
+	</parent>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<docker.image.prefix>springio</docker.image.prefix>
+		<docker.image.prefix>ganpaw</docker.image.prefix>
 		<java.version>1.8</java.version>
 	</properties>
-	<dependencyManagement>
-	     <dependencies>
-	        <dependency>
-	            <!-- Import dependency management from Spring Boot -->
-	            <groupId>org.springframework.boot</groupId>
-	            <artifactId>spring-boot-dependencies</artifactId>
-	            <version>1.5.1.RELEASE</version>
-	            <type>pom</type>
-	            <scope>import</scope>
-	        </dependency>
-	    </dependencies>
-	</dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
